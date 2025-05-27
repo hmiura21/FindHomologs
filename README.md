@@ -30,3 +30,13 @@ Specifically, we use a **protein query** sequence (e.g., Histidine Kinase domain
 
 ```bash
 ./find_homologs.sh <query_protein.faa> <subject_genome.fna> <output_file.txt>
+```
+---
+
+## 📁 Repository Structure
+- `CRISPR_1f.fna`: type I-F CRISPR repeat (subject file)
+- `ERR430992.fna`: one example of assembly file used to compare sequences with the CRISPR repeats file (example query file)
+- `ERR43122.fna`: one example of assembly file used to compare sequences with the CRISPR repeats file (example query file)
+- `find_perfect_matches.sh`: script that contains all commands
+
+
