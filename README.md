@@ -34,9 +34,11 @@ Specifically, we use a **protein query** sequence (e.g., Histidine Kinase domain
 ---
 
 ## 📁 Repository Structure
-- `CRISPR_1f.fna`: type I-F CRISPR repeat (subject file)
-- `ERR430992.fna`: one example of assembly file used to compare sequences with the CRISPR repeats file (example query file)
-- `ERR43122.fna`: one example of assembly file used to compare sequences with the CRISPR repeats file (example query file)
-- `find_perfect_matches.sh`: script that contains all commands
+- `Escherichia_coli_K12.fna`: example bacteria assembly for Escherichia coli (example query data)
+- `Pseudomonas_aeruginosa_UCBPP-PA14.fna`: example bacteria assembly for Pseudomonas aeruginosa (example query data)
+- `Vibrio_cholerae_N16961.fna`: example bacteria assembly for Vibrio cholerae (example query data)
+- `Wolbachia.fna`: example bacteria assembly for Wolbachia (example query data)
+- `HK_domain.faa`: sequence of histidine kinase (HK) domains from the organism Escherichia coli strain K-12 (example subject file)
+- `find_homologs.sh`: script that contains all commands
 
 
